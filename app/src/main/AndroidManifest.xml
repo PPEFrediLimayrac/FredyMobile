@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.plot3.FrediMobile">
+    package="com.plot1.FrediMobile">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -19,26 +19,26 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.plot3.FrediMobile.LoginActivity"
-            android:parentActivityName="com.plot3.FrediMobile.MainActivity">
+            android:name="com.plot1.FrediMobile.LoginActivity"
+            android:parentActivityName="com.plot1.FrediMobile.MainActivity">
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.plot3.FrediMobile.MainActivity" />
+                android:value="com.plot1.FrediMobile.MainActivity" />
         </activity>
-        <activity android:name="com.plot3.FrediMobile.ListActivity"
-            android:parentActivityName="com.plot3.FrediMobile.LoginActivity">
+        <activity android:name="com.plot1.FrediMobile.ListActivity"
+            android:parentActivityName="com.plot1.FrediMobile.LoginActivity">
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.plot3.FrediMobile.LoginActivity" />
+                android:value="com.plot1.FrediMobile.LoginActivity" />
         </activity>
-        <activity android:name="com.plot3.FrediMobile.DetailsActivity"
-            android:parentActivityName="com.plot3.FrediMobile.LoginActivity">
+        <activity android:name="com.plot1.FrediMobile.DetailsActivity"
+            android:parentActivityName="com.plot1.FrediMobile.LoginActivity">
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.plot3.FrediMobile.LoginActivity" />
+                android:value="com.plot1.FrediMobile.LoginActivity" />
         </activity>
     </application>
 
